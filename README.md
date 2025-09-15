@@ -16,8 +16,8 @@ Todas as atividades estão **separadas por bimestre** para facilitar o acompanha
 
 ## Autor
 
-Instituto Federal do Rio Grande do Norte (IFRN)
-Disciplina: **Algoritmos**
-Ano-período: 2025-2
-Aluno: **<Aluno>**  
+- Instituto Federal do Rio Grande do Norte (IFRN)
+- Disciplina: **Algoritmos**
+- Ano-período: 2025-2
+- Aluno: **<Aluno>**  
 
