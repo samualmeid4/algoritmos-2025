@@ -2,21 +2,28 @@
 using namespace std;
 
 int main(){
-    int a, b, taxa_a, taxa_b, anos;
+    int a, b, anos;
+    float taxa_a = 0.03;  // 3% de crescimento
+    float taxa_b = 0.015;
 
-    taxa_a = a*1,03
-    taxa_b = b*1,015
+
+    
     
     cin >> a >> b;
     
-    anos = 0
-    while (b < a){
-        a = a * taxa_a;
-        b = b * taxa_b;
-        anos += 1;
+    anos = 0;
+    while(b < a){
+        a = a + a * taxa_a;
+        b = b + b * taxa_b;
+        anos++;anos += 1;
+
+        if (b>=a){
+            break;
     }
-    return cout << "a = "<<a<<endl<<"b = "<<b<<endl<<"anos"<<anos<<endl;
-    
+}
+    cout << "Depois de " << anos << " anos, os habitantes serão:\n";
+    cout << "a = " << a << "\n";
+    cout << "b = " << b << "\n";
     
 
     return 0;
