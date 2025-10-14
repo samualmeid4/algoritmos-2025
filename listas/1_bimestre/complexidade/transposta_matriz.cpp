@@ -8,7 +8,7 @@ int soma(int vetor[], int n) {
             sum += vetor[j];
         }
         cout << "A soma do sub-vetor de 0 até " << i << " é " << sum << endl;
-        sum = 0;  // zera a soma para o próximo i
+        sum = 0;  
     }
     return 0;
 }
@@ -17,9 +17,9 @@ int main() {
     int n;
     cin >> n;
 
-    int vetor[100]; // tamanho fixo, por simplicidade
+    int vetor[100];
 
-    for (int i = 0; i < n; i++) {  // corrigido: i < n, não i <= n
+    for (int i = 0; i < n; i++) {
         cin >> vetor[i];
     }
 
